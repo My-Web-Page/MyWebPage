@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devesh Kumar : Full-Stack Developer</title>
+    <link href="./assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <title> Devesh Kumar : Full-Stack Developer</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,15 +27,19 @@
                 <nav>
                     <ul class="nav-ul ">
                         <li>
-                            <a class="btn" href="#about-me">About Me</a> </li>
+                            <a href="#about-me"><i class="fas fa-info-circle"></i>  About Me</a> </li>
                         <li>
-                            <a class="btn" href="#education">Education</a></li>
+                            <a href="#education"><i class="fas fa-graduation-cap"></i>
+
+                                Education</a></li>
                         <li>
-                            <a class="btn" href="#projects">Projects</a></li>
+                            <a href="#projects"><i class="fab fa-elementor"></i> Projects</a></li>
                         <li>
-                            <a class="btn" href="#work-ex">Work Experience</a></li>
+                            <a href="#work-ex"><i class="fas fa-briefcase"></i>
+
+                                Work Experience</a></li>
                         <li>
-                            <a class="btn" href="#contact">Contact Me</a></li>
+                            <a href="#contact"><i class="fas fa-mobile-alt"></i> Contact Me</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,35 +47,38 @@
         </header>
 
         <!-- *********************About Me***********************  -->
-        <section id="about-me" class="container">
-            <p>Hello! My name is Devesh Kumar. Welcome to my Website. Please feel free to browse through the website and check out projects I developed and leave me a message or feedback. I have shared links below to my GitHub and LinkedIn pages. I have
-                recently finished Software Engineering Technician Course at Centennial College. In this course I have learnt and worked with various programming languages and tools. Given below are the details</p>
-            <h3>Languages & tools I primarily worked with:</h3>
-            <p>JavaScript, NodeJs, EJS, HTML, CSS, Bootstrap, C#, Oracle SQL, MongoDB, Git, GitHub, VS Code, Visual Studio
-            </p>
-            <h3>Languages & tools I am familiar with </h3>
-            <p>Linux, Jira, Python, Java, Postman, Selenium, MS Azure, Trello, Slack, IntelliJ</p>
-            <p>I have also developed grasp over software engineering concepts such as Agile, SDLC models, Agile Project Management Concepts. I have also developed multiple projects using JavaScript, Node.js, HTML, CSS, C#, SQL, MongoDB and other tools. I
-                have shared GitHub links for these projects and other details below and in my resume. Additionally, given below are some investment management courses and certifications I finished in the past:</p>
-            <ul>
-                <li>CFA Level 1 Passed</li>
-                <li> Canadian Securities Course (CSC)</li>
-                <li> Derivatives Fundamentals and Options Licensing (DFOL)</li>
-            </ul>
-            <p>I have worked with RBC Royal Bank in past for 18 months. In the past I have also worked with other compnies such as Hilton Hotels and Cheapoair.com.
-            </p>
+        <section id="about-me">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello & Welcome! I have recently completed Software Engineering Technician program at Centennial College. This program allowed me to learn and work with various programming languages and tools. Given below are the details: </p>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>Languages & tools I primarily worked with:</h3>
+                        <p> JavaScript, NodeJs, EJS, HTML, CSS, Bootstrap, C#, Oracle SQL, MongoDB, Git, GitHub, VS Code, Visual Studio
+                        </p>
+                    </div>
 
+                    <div class="grid-item">
+                        <h3>Languages & tools I am familiar with: </h3>
+                        <p>Linux, Jira, Python, Java, Postman, Selenium, MS Azure, Trello, Slack, IntelliJ</p>
+                    </div>
+                </div>
+                <p>I have also developed grasp over software engineering concepts such as Agile, SDLC models, Agile Project Management Concepts. I have also developed multiple projects using JavaScript, Node.js, HTML, CSS, C#, SQL, MongoDB and other tools.
+                    Additionally, I have also completed some investment management courses and certifications in the past.</p>
+
+            </div>
         </section>
 
         <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
         <section id="projects" class="projects">
             <div class="container divider">
-                <h2>Featured Projects</h2>
+                <h2>My Projects</h2>
                 <!-- Project 1 -->
                 <section class="project-item clearfix">
                     <img src="./assets/images/assignment_2.png" alt="Portfolio Assignment Using Node.js, Bootstrap, EJS and MongoDB">
-                    <h3>Personal Portfolio Website : Using Node.js and MongoDB</h3>
-                    <p>Personal Portfolio Website : Using Node.js and MongoDB.</p>
+                    <h3>Personal Portfolio Website</h3>
+                    <p> <strong>Languages & Tools Used :</strong> EJS, CSS, Node.js and MongoDB.</p>
+                    <p>Developed this website using above mentioned technologies. I used ExpressJs middleware, and passport.js for authentication.</p>
                     <a class="btn" href="https://comp229-asnmt2.herokuapp.com/home" target="_blank">Website Link</a>
                     <a class="btn" href="https://github.com/portretrieve/Assignment_2" target="_blank">GitHub Link</a>
                 </section>
@@ -75,8 +86,9 @@
                 <!-- Project 2 -->
                 <section class="project-item clearfix">
                     <img src="./assets/images/final_project.png" alt="Final Project Using Node.js, Bootstrap, EJS and MongoDB">
-                    <h3>Angel's Investment Website : Using Node.js and MongoDB</h3>
-                    <p>Created this website using </p>
+                    <h3>Angel's Investment Website</h3>
+                    <p> <strong>Languages & Tools Used :</strong> EJS, CSS, Node.js and MongoDB.</p>
+                    <p>Created this website using Node.js(Express.js), and Passport.js to authenticate.</p>
                     <a class="btn" href="https://angelinvestfinal.herokuapp.com/" target="_blank">Website Link</a>
                     <a class="btn" href="https://github.com/Angel-Investor/AngelInvestor-Web-App" target="_blank">GitHub Link</a>
                 </section>
@@ -85,7 +97,7 @@
                 <section class="project-item clearfix">
                     <img src="./assets/images/slot-machine.png" alt="Casino slot machine game using HTML, CSS, JavaScript, TypeScript and EaselJS">
                     <h3>Slot Machine Game</h3>
-                    <p>Created Casino slot machine game using HTML, CSS, JavaScript, TypeScript and EaselJS.</p>
+                    <p> <strong>Languages & Tools Used :</strong> HTML, CSS, JavaScript, TypeScript and EaselJS.</p>
                     <a class="btn" href="https://portretrieve.github.io/COMP125-Assignment-4-CreateJS-Slot-Machine/" target="_blank">Website Link</a>
                     <a class="btn" href="https://github.com/portretrieve/COMP125-Assignment-4-CreateJS-Slot-Machine" target="_blank">GitHub Link</a>
                 </section>
@@ -94,18 +106,17 @@
                 <section class="project-item clearfix">
                     <img src="./assets/images/restaurant_app.png" alt="Restaurant app using C# WPF MVVM">
                     <h3>Restuarant POS system app</h3>
-                    <p>Created the restaurant P.O.S app using C# WPF.</p>
+                    <p> <strong>Languages & Tools Used :</strong> C#, WPF and XAML.</p>
+                    <p>Created the restaurant P.O.S app using C# and WPF.</p>
                     <a class="btn" href="https://github.com/portretrieve/Restaurant_app" target="_blank">GitHub Link</a>
                 </section>
                 <section>
-                    <p>In addition to the projects above I have also created other projects using HTML, CSS, Python, C# WinForms etc. All of these can be found on my GitHub Page.</p>
-
+                    <h3>Other Projects: </h3>
+                    <p>In addition to the projects above I have also developed other projects using the languages and tools given below. All of these can be found on my <span><a href="https://github.com/portretrieve" target="_blank">GitHub Page</a>.</span></p>
+                    <p> <strong>Languages & Tools Used :</strong> C#, WinForms, SQL/PL SQL, Java, Python, Jira, Trello, Lucid Charts, MS Visio etc. </p>
                 </section>
-
             </div>
         </section>
-
-
 
         <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
         <section id="education" class="education">
@@ -151,7 +162,6 @@
                         <ul>
                             <li>Proactively engage with clients and deliver an outstanding service experience through completing transactions, and by identifying sales and referral opportunities</li>
                             <li>Focus on education and demonstration, leverage technology to deliver a memorable client experience, drive sales and retain business</li>
-                            <li>Contribute to team sales results by listening and spotting opportunities to offer additional advice, introduce clients to the capability of RBC partners</li>
                             <li>Manage risks by adhering to compliance routines, processes, and controls to protect client and shareholder interests while completing transactions</li>
                         </ul>
 
@@ -187,10 +197,9 @@
                     <div class="job-summary">
 
                         <ul>
-                            <li>Making outbound calls to sale travel products such as flight tickets, hotel reservations, car rentals and travel insurances etc.</li>
+                            <li>Making outbound calls and recieving inbound calls to sale travel products such as flight tickets, hotel reservations, car rentals and travel insurances etc.</li>
                             <li>Meeting sales and customer service targets by understanding client needs, offering first call resolution of issues, and actively promoting and selling products and services that meet your clients’ needs.</li>
                             <li>Preparing the sales reports and contacting clients whenever required to provide them with changes to the reservations and providing them additional assistance.</li>
-                            <li>Receiving inbound calls as well to provide after sales services, customer service and complaint resolutions</li>
                         </ul>
                     </div>
                 </section>
@@ -204,9 +213,9 @@
                 <h2>Let's Keep in Touch!</h2>
                 <!-- Social media and contact links. Add or remove any networks. -->
                 <ul class="contact-list">
-                    <li><a href="mailto:deveshkumar2107@hotmail.com">deveshkumar2107@hotmail.com</a></li>
-                    <li><a href="https://github.com/portretrieve" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/devesh-kumar-2aa03b64/" target="_blank">LinkedIn</a></li>
+                    <li><a href="mailto:deveshkumar2107@hotmail.com"><i class="fas fa-envelope"></i>&nbsp;deveshkumar2107@hotmail.com</a></li>
+                    <li><a href="https://github.com/portretrieve" target="_blank"><i class="fab fa-github"></i>&nbsp;GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/devesh-kumar-2aa03b64/" target="_blank"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
                 </ul>
             </div>
         </footer>
