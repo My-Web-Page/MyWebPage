@@ -14,6 +14,7 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -25,7 +26,7 @@ html {
 body {
     color: #343434;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -42,7 +43,7 @@ img {
 }
 
 a {
-    color: #FFE66D;
+    color: #F7FFF7;
 }
 
 a:hover {
@@ -51,7 +52,9 @@ a:hover {
 
 h1 {
     font-size: 100px;
-    line-height: 1;
+    line-height: .9;
+    margin-top: 120px;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -61,12 +64,12 @@ h2 {
 h1,
 h2 {
     font-family: 'Caveat', cursive;
-    font-weight: 400;
-    margin: 0;
+    font-weight: 600px;
 }
 
 h2 {
     margin-bottom: 30px;
+    margin: 0;
 }
 
 .container {
@@ -101,6 +104,19 @@ h3+p {
 
 /*****Nav*****/
 
+nav {
+    background-color: #227C9D;
+    padding: 5px 0;
+    position: relative;
+}
+
+@supports (position: sticky) {
+    nav {
+        position: sticky;
+        top: 0;
+    }
+}
+
 .nav-ul li {
     list-style-type: none;
 }
@@ -115,8 +131,8 @@ h3+p {
 }
 
 .top-btn {
-    background-color: #3E3A41;
-    color: white;
+    background-color: #174F64;
+    color: #F7FFF7;
     padding: 5px;
     text-decoration: none;
     border-radius: 3px;
@@ -130,15 +146,15 @@ h3+p {
 /*****About Me******/
 
 #about-me {
-    background-color: #F8F2DC;
+    background-color: #EEE;
 }
 
 .grid-container {
-    color: white;
+    color: #F7FFF7;
 }
 
 .grid-container .grid-item {
-    background-color: #2F3061;
+    background-color: #227C9D;
     padding: 0 20px;
     font-size: 16px;
 }
@@ -148,8 +164,7 @@ h3+p {
 ------------------------------------*/
 
 header {
-    background-color: #2F3061;
-    color: #F7FFF7;
+    color: #643C2B;
 }
 
 
@@ -157,8 +172,7 @@ header {
 ------------------------------------*/
 
 .projects {
-    background: #e1e2df;
-    color: black;
+    background: #CADDE3;
 }
 
 .projects a {
@@ -167,8 +181,8 @@ header {
 }
 
 .projects .btn {
-    color: white;
-    background: rgba(47, 48, 97);
+    color: #F7FFF7;
+    background: #174F64;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -188,7 +202,7 @@ header {
 ------------------------------------*/
 
 .work-experience {
-    background: #A1C6D7;
+    background: #CADDE3;
 }
 
 
@@ -196,9 +210,9 @@ header {
 ------------------------------------*/
 
 .education {
-    background-image: url(./assets/images/joanna-kosinska-unsplash.jpg);
+    background-image: url(./assets/images/leone-venter-VieM9BdZKFo-unsplash.jpg);
     background-size: cover;
-    background-position: top right;
+    background-position: bottom left;
     padding-bottom: 20px;
 }
 
@@ -216,7 +230,7 @@ header {
 ------------------------------------*/
 
 footer {
-    background: #343434;
+    background: #227C9D;
     color: #F7FFF7;
 }
 
@@ -244,6 +258,13 @@ footer {
         column-gap: 20px;
         row-gap: 10px;
     }
+    header {
+        background-image: url(./assets/images/georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        background-position: bottom;
+    }
     header,
     footer {
         text-align: center;
@@ -268,13 +289,19 @@ footer {
 }
 
 @media (max-width:749px) {
+    header {
+        background-color: #FEF9EF;
+        text-align: center;
+        padding-bottom: 10px;
+    }
     h1 {
         font-size: 75px;
-        margin-bottom: 20px;
+        margin-top: 15px;
     }
     h1,
     h2 {
         line-height: .9;
+        margin-bottom: 15px;
     }
     .contact-list li {
         padding-bottom: 10px;
