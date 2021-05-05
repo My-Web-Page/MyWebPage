@@ -40,6 +40,12 @@ body {
 
 img {
     width: 300px;
+    text-shadow: gray 2px 2px 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+    transform: scale(1.01);
 }
 
 a {
@@ -55,10 +61,12 @@ h1 {
     line-height: .9;
     margin-top: 120px;
     margin-bottom: 0;
+    text-shadow: gray 1px 1px 1px;
 }
 
 h2 {
     font-size: 45px;
+    text-shadow: gray .5px .5px .5px;
 }
 
 h1,
@@ -121,13 +129,13 @@ nav {
     list-style-type: none;
 }
 
+.nav-ul li:hover {
+    transform: scale(1.05);
+}
+
 .nav-ul li a {
     text-decoration: none;
     font-size: 18px;
-}
-
-.nav-ul li a:hover {
-    text-decoration: underline;
 }
 
 .top-btn {
@@ -136,10 +144,12 @@ nav {
     padding: 5px;
     text-decoration: none;
     border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .top-btn:hover {
-    background-color: black;
+    background-color: #1E6A85;
+    transform: scale(1.01);
 }
 
 
@@ -151,12 +161,17 @@ nav {
 
 .grid-container {
     color: #F7FFF7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .grid-container .grid-item {
     background-color: #227C9D;
     padding: 0 20px;
     font-size: 16px;
+}
+
+.grid-container .grid-item:hover {
+    transform: scale(1.01);
 }
 
 
@@ -187,10 +202,12 @@ header {
     padding: 8px;
     border-radius: 4px;
     display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.projects btn:hover {
-    background-color: rgba(47, 48, 97, 80%);
+.projects .btn:hover {
+    background-color: #1E6A85;
+    transform: scale(1.01);
 }
 
 .project-item h3 {
