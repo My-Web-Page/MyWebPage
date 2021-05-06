@@ -38,14 +38,15 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
         display: table;
     }
     
-    .img {
+    .project-image {
         width: 300px;
         text-shadow: gray 2px 2px 2px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
     }
     
-    .img:hover {
-        transform: scale(1.01);
+    .project-image:hover {
+        transform: scale(1.02);
     }
     
     a {
@@ -162,14 +163,8 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    
-    .wrapper1,
-    .wrapper2,
-    .wrapper3,
-    .wrapper4 {
-        display: none;
         text-align: center;
+        display: none;
     }
     
     #popup-img {
