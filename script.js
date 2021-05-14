@@ -12,6 +12,10 @@ images.forEach((image) => {
     })
 })
 
-closeBtn.addEventListener("click", () => {
+popupImage.addEventListener("click", (e) => {
+    e.stopPropagation();
+});
+
+popup.addEventListener("click", () => {
     popup.style.display = "none";
-})
+});
