@@ -172,22 +172,9 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
         flex: 1 1 0;
     }
     
-    .popup-close {
-        cursor: pointer;
-    }
-    
     .popup-wrapper p {
         text-align: center;
         margin: 150px 0 0 0;
-    }
-    
-    .popup-wrapper p button {
-        text-align: center;
-        background: crimson;
-        font-size: 15px;
-        border-radius: 4px;
-        padding: 10px;
-        color: white;
     }
     /*****About Me******/
     
