@@ -160,21 +160,12 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
         left: 0;
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         text-align: center;
         display: none;
     }
     
     #popup-img {
         max-width: 100%;
-        flex: 1 1 0;
-    }
-    
-    .popup-wrapper p {
-        text-align: center;
-        margin: 150px 0 0 0;
     }
     /*****About Me******/
     
