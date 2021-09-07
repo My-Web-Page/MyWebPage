@@ -131,7 +131,7 @@ h3+p {
 /* **********************************************************************************/
 
 nav {
-    background-color: #196480;
+    background-color: #748991;
     padding: 5px 0;
     position: relative;
     height: var(--header-height);
@@ -214,7 +214,7 @@ nav {
 }
 
 .grid-container .grid-item {
-    background-color: #1d6683;
+    background-color: #748991;
     padding: 0 20px;
     font-size: 16px;
 }
