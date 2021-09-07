@@ -5,6 +5,7 @@ let popupImage = document.querySelector("#popup-img");
 
 images.forEach((image) => {
   image.addEventListener("click", (e) => {
+    console.log(e.target);
     popupImage.src = e.target.src;
     popup.style.display = "block";
   });
