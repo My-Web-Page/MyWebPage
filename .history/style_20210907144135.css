@@ -148,8 +148,9 @@ nav {
     list-style-type: none;
 }
 
-.nav-ul li a:hover {
-    font-weight: 600;
+.nav-ul li:hover {
+    transform: scale(1.02);
+    text-decoration: solid;
 }
 
 .nav-ul li a {
@@ -169,7 +170,6 @@ nav {
 .top-btn:hover {
     background-color: #1e6a85;
     transform: scale(1.01);
-    font-weight: 600;
 }
 
 
@@ -344,7 +344,7 @@ footer li a {
 }
 
 footer li a:hover {
-    font-weight: 600;
+    text-decoration: underline;
 }
 
 
