@@ -22,6 +22,9 @@ html {
     scroll-behavior: smooth;
     --header-height: 75px;
     scroll-padding-top: var(--header-height);
+    letter-spacing: 1.05;
+    line-height: 1.02;
+    font-size: 1.5rem;
 }
 
 *,
@@ -148,8 +151,8 @@ nav {
     list-style-type: none;
 }
 
-.nav-ul li:hover {
-    transform: scale(1.02);
+.nav-ul li a:hover {
+    font-weight: 600;
 }
 
 .nav-ul li a {
@@ -169,6 +172,7 @@ nav {
 .top-btn:hover {
     background-color: #1e6a85;
     transform: scale(1.01);
+    font-weight: 600;
 }
 
 
@@ -214,7 +218,7 @@ nav {
 }
 
 .grid-container .grid-item {
-    background-color: #748991;
+    background-color: #1d6683;
     padding: 0 20px;
     font-size: 16px;
 }
@@ -336,6 +340,14 @@ footer {
 
 .contact-list a {
     margin-left: 15px;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+footer li a:hover {
+    font-weight: 600;
 }
 
 

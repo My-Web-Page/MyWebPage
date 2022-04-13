@@ -31,11 +31,11 @@ html {
 }
 
 body {
-    color: #111010;
+    color: #0a0a0a;
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -90,7 +90,7 @@ h2 {
 
 .container {
     max-width: 900px;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 15px 0;
 }
@@ -101,7 +101,6 @@ h3 {
 
 h4 {
     color: rgb(255, 226, 226);
-    text-decoration: line-through;
 }
 
 h3+p {
@@ -132,7 +131,7 @@ h3+p {
 /* **********************************************************************************/
 
 nav {
-    background-color: #227c9d;
+    background-color: #196480;
     padding: 5px 0;
     position: relative;
     height: var(--header-height);
@@ -149,8 +148,8 @@ nav {
     list-style-type: none;
 }
 
-.nav-ul li:hover {
-    transform: scale(1.02);
+.nav-ul li a:hover {
+    font-weight: 600;
 }
 
 .nav-ul li a {
@@ -170,6 +169,7 @@ nav {
 .top-btn:hover {
     background-color: #1e6a85;
     transform: scale(1.01);
+    font-weight: 600;
 }
 
 
@@ -215,7 +215,7 @@ nav {
 }
 
 .grid-container .grid-item {
-    background-color: #227c9d;
+    background-color: #1d6683;
     padding: 0 20px;
     font-size: 16px;
 }
@@ -337,6 +337,14 @@ footer {
 
 .contact-list a {
     margin-left: 15px;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+footer li a:hover {
+    font-weight: 600;
 }
 
 

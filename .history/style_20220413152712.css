@@ -35,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -148,8 +148,8 @@ nav {
     list-style-type: none;
 }
 
-.nav-ul li:hover {
-    transform: scale(1.02);
+.nav-ul li a:hover {
+    font-weight: 600;
 }
 
 .nav-ul li a {
@@ -169,6 +169,7 @@ nav {
 .top-btn:hover {
     background-color: #1e6a85;
     transform: scale(1.01);
+    font-weight: 600;
 }
 
 
@@ -343,7 +344,7 @@ footer li a {
 }
 
 footer li a:hover {
-    text-decoration: underline;
+    font-weight: 600;
 }
 
 

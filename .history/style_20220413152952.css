@@ -31,11 +31,11 @@ html {
 }
 
 body {
-    color: #0a0a0a;
+    color: #0e0b0b;
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.5;
 }
 
@@ -89,8 +89,8 @@ h2 {
 }
 
 .container {
-    max-width: 900px;
-    width: 80%;
+    max-width: 950px;
+    width: 85%;
     margin: 0 auto;
     padding: 15px 0;
 }
@@ -148,9 +148,8 @@ nav {
     list-style-type: none;
 }
 
-.nav-ul li:hover {
-    /* transform: scale(1.01); */
-    font-weight: 700;
+.nav-ul li a:hover {
+    font-weight: 600;
 }
 
 .nav-ul li a {
@@ -345,7 +344,7 @@ footer li a {
 }
 
 footer li a:hover {
-    text-decoration: underline;
+    font-weight: 600;
 }
 
 
