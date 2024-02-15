@@ -14,6 +14,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   --header-height: 75px;
+  --back-color: #0c303d;
   scroll-padding-top: var(--header-height);
 }
 
@@ -31,7 +32,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   word-spacing: 2px;
-  /* color: #0f323f; */
 }
 
 .clearfix::after {
@@ -114,7 +114,7 @@ h3 + p {
 /*****Nav*****/
 
 nav {
-  background-color: #227c9d;
+  background-color: var(--back-color);
   padding: 5px 0;
   position: relative;
   height: var(--header-height);
@@ -129,15 +129,16 @@ nav {
 
 .nav-ul li {
   list-style-type: none;
+  font-weight: 600;
 }
 
 .nav-ul li:hover {
-  transform: scale(1.01);
+  transform: scale(1.005);
 }
 
 .nav-ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 /*************Popup**********/
 
@@ -170,8 +171,8 @@ nav {
 }
 
 .popup-wrapper p button {
-  text-align: center;
-  background: crimson;
+  /* text-align: right; */
+  background: rgb(85, 12, 26);
   font-size: 15px;
   border-radius: 4px;
   padding: 10px;
@@ -234,7 +235,7 @@ header {
 
 .projects .btn {
   color: #f7fff7;
-  background: #397d96;
+  background: var(--back-color);
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -252,7 +253,7 @@ header {
 }
 
 .top-btn {
-  background-color: #174f64;
+  background: var(--back-color);
   padding: 5px;
   text-decoration: none;
   border-radius: 3px;
@@ -291,7 +292,7 @@ header {
 ------------------------------------*/
 
 footer {
-  background: #227c9d;
+  background: #0c303d;
   color: #f7fff7;
 }
 
