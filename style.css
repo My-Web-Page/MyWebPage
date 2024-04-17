@@ -210,20 +210,45 @@ h3 + p {
   padding: 10px;
   color: white;
 }
+
 /*****About Me******/
 
 #about-me {
   background-color: #eee;
 }
 
-.grid-container {
+#intro {
+  background-color: #eff2f3;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.grid-container:hover {
+#core-expertise {
+  background-color: #eff2f3;
+  margin-bottom: 25px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.expertise {
+  display: inline-block;
+  margin: 5px;
+  padding: 2px;
+  min-width: 30%;
+  color: #0f323f;
+}
+
+.grid-container {
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .grid-container:hover {
   box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 .grid-container .grid-item {
   background-color: #eff2f3;
@@ -236,25 +261,6 @@ h3 + p {
   font-style: italic;
   color: #4f1183;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
-}
-
-#core-expertise {
-  background-color: #eff2f3;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#core-expertise:hover {
-  box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.expertise {
-  display: inline-block;
-  margin: 5px;
-  padding: 2px;
-  min-width: 30%;
-  color: #0f323f;
 }
 
 /* Profile
