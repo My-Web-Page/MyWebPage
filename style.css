@@ -335,6 +335,21 @@ header {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.cert-btn {
+  color: #f7fff7;
+  background: var(--back-color);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.cert-btn:hover {
+  background-color: #1e6a85;
+  transform: scale(1.01);
+}
+
 /* Contact Info
   ------------------------------------*/
 
